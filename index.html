@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Swayam S. Malusare | Full Stack Java Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="theme-overlay"></div>
+
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <section id="intro-sequence">
+    <div class="intro-content">
+      <h1 class="intro-name">Swayam S. Malusare</h1>
+      <p class="intro-role">Full Stack Java Developer</p>
+    </div>
+  </section>
+
+  <header class="nav glass" id="navbar">
+    <div class="nav-brand">
+      <span class="nav-dot"></span>
+      <div style="display: flex; align-items: baseline; text-transform: none; letter-spacing: normal;">
+        <span style="font-size: 0.8rem; color: var(--muted);">System.out.println</span>
+        <br>
+        <span style="font-size: 1.3rem; font-weight: 800; color: var(--text); margin-left: 4px;">("Swayam Malusare")</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#timeline" class="nav-link">Journey</a>
+      <a href="#skills" class="nav-link">Stack</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link primary">Let’s Talk</a>
+      <button id="theme-toggle" aria-label="Toggle Light/Dark Mode">🌞</button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="hero">
+      <div class="section-inner hero-grid">
+        <div class="hero-text-content">
+          <div class="hero-kicker glass">
+            <span></span>
+            <span></span>
+          </div>
+
+          <h1 class="hero-title">
+            Crafting precise<br />
+            backend systems in <span>Java</span>.
+          </h1>
+
+          <p class="hero-subtitle">
+            Entry‑level Java Developer engineering secure, scalable, and highly-performant microservices and REST APIs.
+          </p>
+
+          <div class="hero-meta">
+            <span class="glass">📍 Pune, India</span>
+            <span class="glass">🎓 B.E. IT (2022–2026)</span>
+            <span class="glass">CGPA 7.01</span>
+          </div>
+
+          <div style="display: flex; gap: 16px; margin-bottom: 30px;">
+            <a href="#projects" class="btn btn-primary">View Builds</a>
+            <a href="#contact" class="btn btn-ghost glass">Establish Connection</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="hero-portrait-card glass">
+            <div class="portrait-inner">
+              <img src="profile.png" alt="Swayam S. Malusare" />
+              <div class="portrait-gradient"></div>
+              <div class="portrait-caption">
+                <h3 style="color:#fff;">Swayam S. Malusare</h3>
+                <span style="color: #ccc; font-size: 13px;">Backend Developer</span>
+              </div>
+            </div>
+            
+            <div class="floating-pill glass" style="top: 15%; right: -30px;">
+              <span>AI-900</span> Certified
+            </div>
+            
+            <div class="floating-pill glass" style="top: 35%; right: -15px;">
+              <span>Java</span> Developer
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="section-inner timeline-grid">
+        <div class="timeline-title-area">
+          <h2 class="section-heading">A journey through <span>logic</span>.</h2>
+          <p class="section-tagline">
+            From foundations in algorithms to designing robust database‑backed enterprise applications.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-progress"></div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                <span class="badge">Education</span>
+                <span style="font-size: 12px; color: var(--muted);">2022 – 2026</span>
+              </div>
+              <h3 style="font-size: 18px; margin-bottom: 4px;">B.E. Information Technology</h3>
+              <p style="font-size: 14px; margin-bottom: 10px; color: var(--text);">Savitribai Phule Pune University</p>
+              <p style="font-size: 13px; color: var(--muted);">Strengthened foundations in data structures, OOP, and database systems. Maintained a CGPA of 7.01.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                <span class="badge">Leadership</span>
+                <span style="font-size: 12px; color: var(--muted);">2024 – 2025</span>
+              </div>
+              <h3 style="font-size: 18px; margin-bottom: 4px;">Core Finance Committee</h3>
+              <p style="font-size: 14px; margin-bottom: 10px; color: var(--text);">Information Technology Students Association</p>
+              <p style="font-size: 13px; color: var(--muted);">Handled budgeting and coordination for student events, strengthening communication and management skills.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                <span class="badge">Foundation</span>
+                <span style="font-size: 12px; color: var(--muted);">2020 – 2022</span>
+              </div>
+              <h3 style="font-size: 18px; margin-bottom: 4px;">Higher Secondary (HSC)</h3>
+              <p style="font-size: 14px; margin-bottom: 10px; color: var(--text);">Maharashtra State Board</p>
+              <p style="font-size: 13px; color: var(--muted);">Graduated with 87%, building the mathematical and analytical foundations required for software engineering.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-inner">
+        <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+          <h2 class="section-heading">System <span>Architecture</span>.</h2>
+          <p class="section-tagline" style="max-width: 100%; margin: 0 auto;">
+            A focused stack designed for real‑world applications. From scalable RESTful APIs to optimized SQL data layers.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card glass">
+            <div class="skill-title">Backend Engine</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Core Java</span>
+              <span class="skill-tag">OOP Logic</span>
+              <span class="skill-tag">Servlets & JSP</span>
+            </div>
+          </div>
+
+          <div class="skill-card glass">
+            <div class="skill-title">Spring Ecosystem</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Spring Boot</span>
+              <span class="skill-tag">Spring MVC</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">Spring Security</span>
+              <span class="skill-tag">Spring Data JPA</span>
+            </div>
+          </div>
+
+          <div class="skill-card glass">
+            <div class="skill-title">Data Intelligence</div>
+            <div class="skill-tags">
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Oracle SQL</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">Query Optimization</span>
+            </div>
+          </div>
+
+          <div class="skill-card glass">
+            <div class="skill-title">Frontend & Deployment</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Angular</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Git / Maven</span>
+              <span class="skill-tag">Apache Tomcat</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="projects-wrapper">
+        <div class="project-intro-slide">
+          <h2 class="section-heading" style="font-size: clamp(50px, 8vw, 80px); line-height: 1.1;">Compiled<br><span>Builds.</span></h2>
+          <p style="font-size: 18px; max-width: 350px; color: var(--muted); margin-top: 20px;">Scroll to explore architectures and system designs.</p>
+        </div>
+
+        <article class="project-card glass">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <span class="badge" style="background: rgba(47,211,156,0.1); color: var(--success); border-color: var(--success);">Financial Tech</span>
+            <span style="font-size: 12px; color: var(--muted);">Nov 2025</span>
+          </div>
+          <h3 class="project-title">Banking Management System</h3>
+          <div style="display: flex; gap: 8px; margin-bottom: 20px;">
+            <span class="skill-tag" style="font-size: 10px;">Core Java</span>
+            <span class="skill-tag" style="font-size: 10px;">JDBC</span>
+            <span class="skill-tag" style="font-size: 10px;">MySQL</span>
+          </div>
+          <p style="font-size: 14px; color: var(--text);">A highly secure banking engine built on clean OOP principles, focusing on transactional safety.</p>
+          <ul class="project-points">
+            <li>Engineered deposit, withdrawal, and balance inquiry logic.</li>
+            <li>Tracked state changes using normalized SQL tables.</li>
+            <li>Enforced strict data encapsulation and abstractions.</li>
+          </ul>
+        </article>
+
+        <article class="project-card glass">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <span class="badge">Enterprise Web</span>
+            <span style="font-size: 12px; color: var(--muted);">Oct 2025</span>
+          </div>
+          <h3 class="project-title">Invoice & Expense Manager</h3>
+          <div style="display: flex; gap: 8px; margin-bottom: 20px;">
+            <span class="skill-tag" style="font-size: 10px;">Spring Boot</span>
+            <span class="skill-tag" style="font-size: 10px;">REST APIs</span>
+            <span class="skill-tag" style="font-size: 10px;">MVC</span>
+          </div>
+          <p style="font-size: 14px; color: var(--text);">A centralized ledger system exposing robust REST APIs for dynamic finance tracking.</p>
+          <ul class="project-points">
+            <li>Built modular endpoints for real-time expense filtering.</li>
+            <li>Separated persistence logic using strict MVC architecture.</li>
+            <li>Validated API integrity thoroughly via Postman.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-inner">
+        <div class="contact-wrap glass">
+          <h2 class="section-heading">Initialize <span>Connection</span>.</h2>
+          <p class="section-tagline" style="margin: 20px auto; max-width: 500px;">
+            Looking for a developer who writes clean code, understands domain logic, and designs scalable databases?
+          </p>
+
+          <div style="display: flex; justify-content: center; gap: 16px; margin: 30px 0; flex-wrap: wrap;">
+            <a href="https://drive.google.com/file/d/12udLDWuz3gu9hih0NLms7pdMHcK6blsN/view?usp=drive_link"
+               class="btn btn-primary">
+               Swayam Resume
+            </a>
+
+            <a href="https://www.linkedin.com/in/swayammalusare"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-ghost glass">
+               LinkedIn
+            </a>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-item glass">swayammalusare0311@gmail.com</div>
+            
+            <!-- <a href="https://drive.google.com/file/d/12udLDWuz3gu9hih0NLms7pdMHcK6blsN/view?usp=drive_link"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-ghost glass">
+               Resume
+            </a> -->
+           <!-- <div class="contact-item glass">Azure AI-900 Certified</div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

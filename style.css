@@ -23,7 +23,7 @@
   --purple: #8b5cf6;
   --text: #0f172a;
   --muted: #475569;
-  --glass-bg: rgba(255, 255, 255, 0.50); 
+  --glass-bg: rgba(255, 255, 255, 0.40); 
   --glass-border: rgba(255, 255, 255, 0.6); 
   --success: #059669;
   --shadow: rgba(0, 0, 0, 0.06);
@@ -294,5 +294,6 @@ section { position: relative; min-height: 100vh; padding: 120px clamp(20px, 8vw,
   .intro-name { font-size: 2.5rem; white-space: normal; }
 
 }
+
 
 

@@ -46,6 +46,26 @@ body {
 .glass, .nav, .btn, .skill-card, .project-card, .timeline-card {
   transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease, transform 0.3s;
 }
+/* FIX: Strict overflow controls prevent horizontal mobile wobble */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.glass, .nav, .btn, .skill-card, .project-card, .timeline-card {
+  transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease, transform 0.3s;
+}
+
 
 /* --- THEME WIPE OVERLAY --- */
 #theme-overlay {
@@ -274,3 +294,4 @@ section { position: relative; min-height: 100vh; padding: 120px clamp(20px, 8vw,
   .intro-name { font-size: 2.5rem; white-space: normal; }
 
 }
+
